@@ -452,6 +452,51 @@ body{
     color: var(--green-color);
 }
 
+/* integration section */
+.integration{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 30px 120px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.integration-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.4px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #000;
+}
+.integration-desc{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+.integration-img{
+    margin-bottom: 20px;
+}
+.integration-img img{
+    overflow: hidden;
+}
+.integration-primary-btn{
+    border: none;
+    border-radius: 20px;
+    padding: 16px 50px 16px 50px;
+    background-color: var(--green-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
 @media screen and (max-width: 1200px){
 
     /* work */
@@ -483,6 +528,12 @@ body{
         font-size: 14px;
         line-height: 22.4px;
     }
+
+    /* integration */
+    .integration-img img{
+        width: 1053px;
+        height: 389px;
+    }
 }
 
 @media screen and (max-width: 1136px){
@@ -496,6 +547,15 @@ body{
     }
     .story-div{
         gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1070px){
+
+    /* integration */
+    .integration-img img{
+        width: 936px;
+        height: 346px;
     }
 }
 
@@ -529,6 +589,23 @@ body{
     }
     .team-div h1{
         font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 950px){
+
+    /* integration */
+    .integration-img img{
+        width: 819px;
+        height: 302px;
+    }
+}
+
+@media screen and (max-width: 830px){
+
+    .integration-img img{
+        width: 702px;
+        height: 259px;
     }
 }
 
@@ -597,6 +674,15 @@ body{
         font-size: 16px;
         line-height: 24px;
     }
+
+    /* integration */
+    .integration{
+        padding: 80px 30px 80px 30px;
+    }
+    .integration-img img{
+        width: 585px;
+        height: 216px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -609,6 +695,12 @@ body{
     .story-right p{
         text-align: center;
     }
+
+    /* integration */
+    .integration-img img{
+        width: 468px;
+        height: 173px;
+    }
 }
 
 @media screen and (max-width: 560px){
@@ -617,6 +709,18 @@ body{
     .features-img img{
         width: 320px;
         height: 267px;
+    }
+}
+
+@media screen and (max-width: 490px){
+
+    /* integration */
+    .integration{
+        padding: 60px 30px;
+    }
+    .integration-img img{
+        width: 351px;
+        height: 130px;
     }
 }
 
