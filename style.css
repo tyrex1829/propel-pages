@@ -157,6 +157,84 @@ body{
     overflow: hidden;
 }
 
+/* features-section */
+.features{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 30px 120px 30px;
+}
+.features-img img{
+    overflow: hidden;
+}
+.features-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feature-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.feature-desc{
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.other-feature{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.other-feature div{
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1030px){
+
+    /* features */
+    .features{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .features > :nth-child(1){
+        order: 2;
+    }
+    .features > :nth-child(2){
+        order: 1;
+    }
+    .features-right{
+        align-items: center;
+    }
+    .feature-desc{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 560px){
+
+    /* features */
+    .features-img img{
+        width: 320px;
+        height: 267px;
+    }
+}
+
 @media screen and (max-width: 815px){
     /* nav */
     .nav-logo-text{
@@ -186,11 +264,18 @@ body{
 }
 
 @media screen and (max-width: 450px){
+
+    /* hero */
     .hero-buttons{
         flex-direction: column;
     }
     .hero-img img{
         height: 315px;
         width: 315px;
+    }
+
+    /* features */
+    .other-feature{
+        flex-direction: column;
     }
 }
