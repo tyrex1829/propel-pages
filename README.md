@@ -1,4 +1,8 @@
-Live link - https://propel-pages.vercel.app/
+# Live link 
+
+https://propel-pages.vercel.app/
+
+# Description 
 
 Propel Pages is an intuitive UI designed specifically for agencies specializing in crafting dynamic landing pages for small startups. 
 
